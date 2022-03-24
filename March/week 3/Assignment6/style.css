@@ -1,0 +1,71 @@
+body{
+    margin: 35px;
+    background-image:url(https://wallpaperaccess.com/full/250725.jpg);
+}
+#h2{
+    margin: 25px 50px;
+}
+div{
+    margin: 30px 50px;
+}
+.text{
+    font-size: large;
+}
+label{
+    font-size: x-large;
+}
+#rating{
+font-size: large;
+}
+h1{
+    color: orange;
+}
+h3{
+    color: lightsalmon;
+}
+h4{
+    color: darkolivegreen;
+}
+#head{
+    background-color: black;
+}
+#portal{
+    color: rgb(241, 72, 21);
+    font-style: italic;
+    font-size: x-large;
+}
+#details{
+    color: rgb(82, 35, 2);
+    font-style: italic;
+    font: bolder;
+}
+#survey{
+    font-style: italic;
+    color:orangered;
+}
+#yn{
+    font-style: italic;
+    color: rgb(136, 57, 0);
+}
+#rate{
+    color: orangered;
+    background-color: black;
+    font-style: italic;
+    font-weight: bolder;
+}
+#b1{
+    font-size: x-large;
+    margin: 40px;
+    background-color:rgb(0, 0, 0);
+    font-style: italic;
+    padding: 10px;
+    color: rgb(248, 92, 2);
+    font: bolder;
+    margin-left: 40%;
+}
+footer{
+    background-color: black;
+    color: orangered;
+    font-style: italic;
+    font: bolder;
+}
