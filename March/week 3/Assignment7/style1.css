@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(124, 204, 200);
+    margin: 35px;
+    padding: 10px;
+
+}
+#head{
+background-color: rgb(62, 163, 180);
+font-style: italic;
+font-weight: bolder;
+}
+h1{
+    color: rgb(214, 16, 26);   
+}
+h3{
+    color: rgb(139, 58, 58);
+}
+h4{
+color: rgb(94, 69, 8);
+}
+h2{
+    font-size:xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    color: rgb(214, 16, 26);
+    margin-left: 40px;
+    
+}
+#details{
+font-size:x-large;
+font-weight: bold;
+font-style: italic;
+color:rgb(94, 40, 20);
+margin: 50px;
+}
+input{
+    font-size: large;
+}
+#lang{
+    color: black;
+    font-size: large;
+}
+button{
+    background-color: black;
+    color: orange;
+    font-size: larger;
+    font-style: italic;
+    width: 25%;
+    padding: 5px;
+    margin-left: 25%;
+}
+footer{
+    background-color: black;
+    color: orangered;
+    font-style: italic;
+    font: bolder;
+}
+sup{
+    color: red;
+}
