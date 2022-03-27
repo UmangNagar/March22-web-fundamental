@@ -1,0 +1,19 @@
+table{
+    padding: 20px;
+  
+    color: rgb(5, 5, 5);
+}
+th{
+    padding: 20px;
+    font-size: large;
+}
+body{
+    background-color: lightgreen;
+}
+span{
+    color: rgb(19, 43, 7);
+}
+#content{
+    margin-left: 300px;
+}
+
