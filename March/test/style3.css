@@ -1,0 +1,18 @@
+
+td,th{
+    padding: 15px;
+}
+#title{
+    color: orangered;
+    background-color: black;
+}
+#time{
+    color: rgb(190, 199, 174);
+    background-color: rgb(7, 7, 7);
+}
+table{
+    background-color: lightcyan;
+}
+body{
+    background-color: rgb(238, 180, 233);
+}
