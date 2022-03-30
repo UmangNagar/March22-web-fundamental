@@ -1,0 +1,13 @@
+#d1{
+    display: flex;
+    height: 3000px;
+    border: 2px solid black;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+p{
+display: flex;
+
+border: 1px solid gray;
+}

@@ -1,0 +1,35 @@
+*{
+    background-color: lightpink;
+}
+.container{
+    background-color: rgb(228, 218, 218);
+    height:300px;
+    width: 50%;
+    display: grid;
+    padding: 20px;
+    border: 2px solid black;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 5px;
+    column-gap: 5px;
+ 
+}
+
+.items{
+    
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+   
+}
+#A{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#B{
+    grid-row: 1/3;
+    grid-column: 3/4;
+}
