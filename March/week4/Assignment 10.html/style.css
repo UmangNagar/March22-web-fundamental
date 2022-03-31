@@ -1,0 +1,105 @@
+
+.container{
+    background-color: rgb(236, 233, 233);
+    margin-left: 450px;
+    border: 2px solid gray;
+    margin-top: 25px;
+    height: 75vh;
+    width: 30%;
+    display: grid;
+    border-radius: 10px;
+    grid-template-areas: 
+    "h1 h1"
+    "h2 h2"
+    "email email"
+    "t1 t1"
+    "fname lname"
+    "t2 t3"
+    "pass pass"
+    "t4 t4"
+    "dob dob"
+    "t5 t5"
+    "check check"
+    "button button"
+    ;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto ;
+    
+}
+.item{
+    padding: 5px;
+}
+.header1{
+    grid-area: h1;
+    font-size:x-large;
+    font-weight: bolder;
+    
+}
+.header2{
+    grid-area: h2;
+    font-size: small;
+    font-weight:5;
+}
+.email{
+grid-area: email;
+color: lightslategrey;
+font-weight: lighter;
+font-size: medium;
+}
+.t1{
+    grid-area: t1;
+}
+.fname{
+    grid-area: fname;
+    color: lightslategrey;
+font-weight: lighter;
+font-size: medium;
+}
+.lname{
+    grid-area: lname;
+    color: lightslategrey;
+font-weight: lighter;
+font-size: medium;
+}
+.t2{
+    grid-area: t2;
+}
+.t3{
+    grid-area: t3;
+}
+.pass{
+    grid-area: pass;
+    color: lightslategrey;
+font-weight: lighter;
+font-size: medium;
+}
+.t4{
+    grid-area: t4;
+}
+.dob{
+    grid-area: dob;
+    color: lightslategrey;
+font-weight: lighter;
+font-size: medium;
+}
+.t5{
+    grid-area: t5;
+}
+.check{
+    grid-area: check;
+    color: rgb(15, 15, 15);
+font-weight: lighter;
+font-size: medium;
+}
+.button{
+    grid-area: button;
+    margin-left: 100px;
+
+}
+button{
+    background-color: blue;
+    color: white;
+    font-size:medium;
+   height: 40px;
+   width: 150px;
+   border-radius: 8px;
+}
