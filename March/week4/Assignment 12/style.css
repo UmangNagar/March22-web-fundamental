@@ -1,0 +1,51 @@
+.chat{
+    width: 25%;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    border: 2px solid brown;
+    border-radius: 1px;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+    background-color:green;
+    color: rgb(2, 2, 2);
+}
+input{
+    width: 320px;
+    height: 30px;
+    padding: 5px;
+    background-color: orange;
+    font-size: larger;
+}
+*{
+    background-color: lightpink;
+}
+.header{
+    background-color: green;
+}
+th{
+    background-color: orange;
+    height: 50px;
+}
+h1,h2,h3{
+    background-color: green;
+}
+img{
+    height: 200px;
+    width: 500px;
+}
+.gallery{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+}
+th:hover{
+    color: maroon;
+    background-color: darkcyan;
+    font-size: larger;
+    font-weight: bold;
+    cursor:grab;
+}
