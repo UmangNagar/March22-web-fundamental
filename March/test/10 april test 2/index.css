@@ -1,0 +1,28 @@
+*{
+    background-color: lightcyan;
+    font-style: italic;
+}
+button{
+    padding: 5px;
+    font-size: large;
+    width: 95px;
+    background-color: orange;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+label{
+    color: rgb(131, 35, 0);
+    font-size: larger;
+    font-weight: bold;
+}
+input{
+    padding: 5px;
+    font-size: large;
+    /* width: 95px; */
+    /* background-color: orange; */
+    border: 2px solid green;
+    border-radius: 5px;
+}
+h1{
+    color: rgb(59, 39, 0);
+}
