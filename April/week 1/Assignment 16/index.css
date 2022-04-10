@@ -1,0 +1,19 @@
+img{
+    height: 200px;
+    width: 300px;
+}
+.hover{
+    height: 350px;
+    width: 450px;
+}
+.out{
+    height: 200px;
+    width: 300px;
+}
+img:hover{
+    height: 250px;
+    width: 350px;
+}
+*{
+    background-color: lightgreen;
+}

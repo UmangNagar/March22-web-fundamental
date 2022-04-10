@@ -1,0 +1,64 @@
+.class1{
+    color: brown;
+}
+*{
+    background-color: lightcyan;
+    margin: 15px;
+}
+.one{
+    background-color: orange;
+    border: 2px solid rebeccapurple;
+    height: 50px;
+    padding: 10px;
+    margin: 5px;
+}
+.two{
+    background-color: aqua;
+    border: 2px solid rebeccapurple;
+    height: 50px;
+    padding: 10px;
+    margin: 5px;
+}
+.three{
+    background-color: yellow;
+    border: 2px solid rebeccapurple;
+    height: 50px;
+    padding: 10px;
+    margin: 5px;
+
+}
+.four{
+    background-color: tomato;
+    border: 2px solid rebeccapurple;
+    height: 50px;
+    padding: 10px;
+    margin: 5px;
+}
+.five{
+    background-color: rgb(175, 255, 71);
+    border: 2px solid rebeccapurple;
+    height: 50px;
+    padding: 10px;
+    margin: 5px;
+}
+.six{
+    background-color: rgb(206, 56, 156);
+    border: 2px solid rebeccapurple;
+    height: 50px;
+    padding: 10px;
+    margin: 5px;
+}
+.seven{
+    background-color: rgb(212, 175, 10);
+    border: 2px solid rebeccapurple;
+    height: 50px;
+    padding: 10px;
+    margin: 5px;
+}
+.eight{
+    background-color: rgb(5, 105, 5);
+    border: 2px solid rebeccapurple;
+    height: 50px;
+    padding: 10px;
+    margin: 5px;
+}
