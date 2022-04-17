@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>umangnagar113@gmail.com</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="heading">Log-In Form</h1>
+        <form>
+            <div class="formElement">
+
+                <label for="nameElement">Name : </label>
+                <input type="text" id="nameElement" placeholder="Enter name here"><br>
+    
+           <small class="smallElement" id="nameSmall">
+               this is mandatory
+             </small>
+    
+            </div>
+
+            <div class="formElement">
+                <label for="emailElement">Email Id : </label>
+                <input type="email" id="emailElement" placeholder="Enter email here"><br>
+    
+                <small class="smallElement" id="nameSmall2">
+                    this is mandatory
+                </small>
+            </div>
+
+            <div class="formElement">
+
+                <label for="Password">Password : </label>
+                <input type="text" id="Password" placeholder="Enter Password here"><br>
+            </div>
+
+            <div class="formElement">
+
+                <label for="cpassword">Confirm Password : </label>
+                <input type="text" id="cpassword" placeholder="Confirm Password"><br>
+             </div>
+             <small class="smallElement"  id="warning">
+                 Password and Confirm Password Doesn't Matched.....
+             </small>
+<br>
+             <small class="smallElement"  id="need">
+                Password Should Contains any one of @,#,or $....
+            </small>
+
+            <div class="btn">
+            <button type="submit" id="submitbtn">
+                Submit
+            </button>
+            
+           </div>
+
+
+
+
+
+
+        </form>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

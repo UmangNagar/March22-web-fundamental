@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    border: 2px solid maroon;
+width: 500px;
+    padding: 20px;
+
+}
+.success{
+    border: 2px solid green;
+}
+label{
+    display: block;
+    font-size: 10px;
+}
+input{
+    display: block;
+    font-size: 15px;
+    padding: 3px;
+    border-radius: 5px;
+    width: 100%;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: ce;
+}
+button{
+    background-color: rgb(23, 180, 180);
+    font-size: large;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.smallElement{
+    visibility: hidden;
+    color: salmon;
+    font-size: 9px;
+}
+.error{
+    border: 2px solid salmon;
+}
+.display{
+    visibility: visible;
+    color: salmon;
+    font-size: 9px;
+}
+
