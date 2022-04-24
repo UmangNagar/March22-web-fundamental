@@ -1,0 +1,66 @@
+img{
+    height: 250px;
+    width: 250px;
+    border-radius: 150px;
+}
+/* .main{
+    border: 2px solid salmon;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center;
+    align-items: center; 
+    width: 50%;
+    margin: 100px 300px; */
+  
+
+#title{
+    border-bottom: 4px solid brown;
+    letter-spacing: 4px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-image: repeating-radial-gradient(brown,yellow,black,green); */
+background-color: rgb(219, 161, 86);
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+   width: 400px; 
+   background-image:-webkit-repeating-linear-gradient(rgb(54, 29, 29),rgb(197, 197, 16),GRAY);
+   padding: 40px; 
+   border-radius: 20px;
+   border: 2px solid salmon;
+}
+.container{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+   
+  
+}
+
+.fname,.fname2,.fname3,.fname4,.fname5,.fname6{
+    letter-spacing: 3px;
+    text-transform:uppercase;
+    color: rgb(37, 0, 0);
+}
+.lname,.lname2,.lname3,.lname4,.lname5,.lname6{
+    letter-spacing: 3px;
+    text-transform:uppercase;
+    color: rgb(37, 0, 0);
+}
+.email,.email2,.email3,.email4,.email5,.email6{
+    letter-spacing: 3px;
+    text-transform:uppercase;
+    font-weight: 400;
+    color:rgb(53, 35, 2)
+}
