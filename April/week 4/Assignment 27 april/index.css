@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(196, 230, 230);
+    padding: 10px;
+    margin: 10px;
+}
+h2{
+    color: orangered;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+}
+.container{
+    position: relative;
+    /* border: 2px solid gray; */
+    width: 313px;
+
+}
+#icon{
+    position: absolute;
+    left: 265px;
+    top: 2px;
+    font-size: larger;
+    font-weight:700;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+#icon:hover{
+    background-color: gray;
+}
+#input{
+    padding: 5px;
+    width: 300px;
+    font-size: large;
+    font-weight: bold;
+}
+.content{
+    border: 2px solid rgb(9, 63, 14);
+    width: 250px;
+    background-color: rgb(32, 32, 29);
+}
+img{
+    height: 150px;
+    width: 100%;
+}
+.flex-item{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: rgb(3, 41, 28);
+    color: aliceblue;
+    padding: 5px;
+    
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.details{
+    /* background-color: rgb(24, 20, 16); */
+    padding: 5px;
+    font-weight: 400;
+    font-size: large;
+    color:rgb(221, 226, 226);
+    font-family: 'Times New Roman', Times, serif;
+}
+.outer{
+padding: 50px;
+}
+.properties{
+    background-color: darkgreen;
+    padding: 15px;
+    font-weight: 400;
+    font-size: large;
+    color: aliceblue;
+    
+}
